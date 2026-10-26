@@ -1,0 +1,19 @@
+{
+  "manifestVersion": 1,
+  "id": "airtable",
+  "version": "0.1.0",
+  "authentication": "bearer-token",
+  "tools": {
+    "list_records_for_table": "read",
+    "search_records": "read",
+    "get_table_schema": "read",
+    "list_tables_for_base": "read"
+  },
+  "resources": "token-scoped Airtable bases",
+  "permissions": {
+    "read": true,
+    "write": false,
+    "send": false
+  },
+  "externalDataTrust": "untrusted"
+}

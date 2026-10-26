@@ -1,0 +1,17 @@
+{
+  "manifestVersion": 1,
+  "id": "milo",
+  "version": "0.1.0",
+  "authentication": "tailscale-owner-or-session",
+  "tools": {
+    "search": "read",
+    "read": "read"
+  },
+  "resources": "one account per connection",
+  "permissions": {
+    "read": true,
+    "write": false,
+    "send": false
+  },
+  "externalDataTrust": "untrusted"
+}

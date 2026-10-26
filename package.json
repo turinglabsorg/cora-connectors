@@ -1,0 +1,26 @@
+{
+  "name": "cora-connectors",
+  "version": "0.1.0",
+  "description": "Portable, read-only agent capabilities for Cora and MCP hosts.",
+  "scripts": {
+    "test": "node --test",
+    "start": "node packages/mcp/stdio.js",
+    "test:live:milo": "node scripts/live-milo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "zod": "4.6.7"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turinglabsorg/cora-connectors.git"
+  }
+}

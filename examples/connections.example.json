@@ -1,0 +1,13 @@
+{
+  "connections": [
+    {
+      "id": "mail",
+      "connector": "milo",
+      "url": "https://milo.example.com",
+      "accountId": "replace-with-your-account-id",
+      "permissions": [
+        "read"
+      ]
+    }
+  ]
+}
