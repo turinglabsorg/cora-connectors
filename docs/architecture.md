@@ -18,3 +18,5 @@ Tools are isolated by connection-prefixed names. A process can expose multiple c
 - [Airtable tool catalog](https://airtable.com/developers/agents/mcp/tools)
 - [MCP server SDK guide](https://modelcontextprotocol.io/docs/develop/build-server)
 - [Milo source](https://github.com/turinglabsorg/milo)
+
+Airtable filters discovery and execution by explicit read/write permissions. Its MCP adapter separates read calls from record mutations, with matching annotations. Schema mutations, automations and email sends remain unavailable. Token grants constrain reachable bases independently of these runtime permissions.

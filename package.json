@@ -1,11 +1,12 @@
 {
   "name": "cora-connectors",
   "version": "0.1.0",
-  "description": "Portable, read-only agent capabilities for Cora and MCP hosts.",
+  "description": "Portable agent capabilities for Cora and MCP hosts with explicit read/write permissions.",
   "scripts": {
     "test": "node --test",
     "start": "node packages/mcp/stdio.js",
-    "test:live:milo": "node scripts/live-milo.js"
+    "test:live:milo": "node scripts/live-milo.js",
+    "test:live:airtable": "node scripts/live-airtable.js"
   },
   "keywords": [],
   "author": "",
